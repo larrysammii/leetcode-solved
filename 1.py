@@ -74,6 +74,7 @@ class Solution:
             # Else(e.g. the first loop),
             # map the value as key,
             # index as value.
+            # { (key)value : (value)index}
             else:
                 hashmap[num] = i
 
